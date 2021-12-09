@@ -18,6 +18,8 @@
     <include file="includes/defaults_ycb.xml"/>
     <include file="includes/assets_004_sugar_box.xml"/>
     <include file="includes/assets_003_cracker_box.xml"/>
+    <include file="includes/assets_030_fork.xml"/>
+    <include file="includes/assets_031_spoon.xml"/>
 
     <worldbody>
         <!-- Set scene -->
@@ -26,14 +28,21 @@
         <geom name="ground" type="plane" size="2 2 1" pos="0 0 0" quat="1 0 0 0" material="matplane"/>
 
         <!-- object -->
-        <body pos="0.0 0.0 0.01">
+        <!-- <body pos="0.0 0.0 0.01">
             <include file="includes/body_004_sugar_box.xml"/>
             <freejoint/>
-        </body>
+        </body> -->
 
         <!-- object -->
-        <body pos="0.1 0.0 0.01">
+        <!-- <body pos="0.1 0.0 0.01">
             <include file="includes/body_003_cracker_box.xml"/>
+            <freejoint/>
+        </body> -->
+
+        <!-- object -->
+        <body pos="0 0.0 0">
+            <!-- <include file="includes/body_030_fork.xml"/> -->
+            <include file="includes/body_031_spoon.xml"/>
             <freejoint/>
         </body>
     </worldbody>

@@ -1,0 +1,13 @@
+<!-- =================================================
+    Copyright 2021 Rutav Shah and Vikash Kumar
+    Model   :: YCB (MuJoCoV2.0)
+    Author  :: Rutav Shah (rutavms@gmail.com)
+    Details :: https://github.com/vikashplus/ycb_sim
+    License :: Under Apache License, Version 2.0 (the "License"); you may not use this file except in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+====================================================== -©vk©-->
+<mujocoinclude>
+    <inertial pos="-0.11025 0.01 0.015" quat="0.11061587 0.69840112 -0.11061587 0.69840112" mass="0.253442" diaginertia="0.00349644 0.00345287 8.947e-05"/>
+    <geom class="ycb_viz" mesh="031_spoon" material="031_spoon"/>
+    <geom class="ycb_col" type="mesh" mesh="031_spoon" material="031_spoon"/>
+    <site name="tool" type="sphere" pos="-0.19 0.045 0" size="0.01" rgba="0.4 0.8 0.4 1" />
+</mujocoinclude>
