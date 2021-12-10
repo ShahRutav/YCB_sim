@@ -20,8 +20,6 @@
     <include file="includes/assets_003_cracker_box.xml"/>
     <include file="includes/assets_030_fork.xml"/>
     <include file="includes/assets_031_spoon.xml"/>
-    <include file="includes/assets_042_adjustable_wrench.xml"/>
-    <include file="includes/assets_040_large_marker.xml"/>
     <include file="includes/assets_044_flat_screwdriver.xml"/>
 
     <worldbody>
@@ -43,14 +41,22 @@
         </body> -->
 
         <!-- object -->
-        <body pos="0 0.0 0">
+        <body pos="0 -0.2 0.035" quat="0.707388 0.706825 0 0">
+            <!-- <include file="includes/body_044_flat_screwdriver.xml"/> -->
             <!-- <include file="includes/body_030_fork.xml"/> -->
-            <!-- <include file="includes/body_031_spoon.xml"/> -->
-            <!-- <include file="includes/body_042_adjustable_wrench.xml"/> -->
-            <!-- <include file="includes/body_040_large_marker.xml"/> -->
-            <include file="includes/body_044_flat_screwdriver.xml"/>
+            <include file="includes/body_031_spoon.xml"/>
             <freejoint/>
         </body>
+
+        <!-- <body pos="0 -0.4 0.035" quat="0.707388 0.706825 0 0"> -->
+            <!-- <include file="includes/body_031_spoon.xml"/> -->
+            <!-- <freejoint/> -->
+        <!-- </body> -->
+
+         <!-- <body pos="0 -0.6 0.035" quat="0.707388 0.706825 0 0"> -->
+            <!-- <include file="includes/body_030_fork.xml"/> -->
+            <!-- <freejoint/> -->
+        <!-- </body> -->
     </worldbody>
 
 </mujoco>
