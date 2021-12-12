@@ -7,8 +7,12 @@
 ====================================================== -©vk©-->
 <mujocoinclude>
     <inertial pos="0 0 0.02" quat="0.50001 0.49999 0.49999 0.50001" mass="0.253442" diaginertia="0.00349644 0.00345287 8.947e-05"/>
+    <!-- <inertial pos="-0.04025 0.01 0.01" quat="0.50001 0.49999 0.49999 0.50001" mass="0.253442" diaginertia="0.00349644 0.00345287 8.947e-05"/> -->
     <geom class="ycb_viz" mesh="044_flat_screwdriver" material="044_flat_screwdriver" quat="0.92387953  0. 0. 0.38268343"/>
     <geom class="ycb_col" type="mesh" mesh="044_flat_screwdriver" material="044_flat_screwdriver" quat="0.92387953 0. 0. 0.38268343"/>
     <site name="tool" pos="-0.2 0 0.02" size="0.01" group="4" rgba="0.4 0.8 0.4 1" />
     <!-- <site name="tool" pos="-0.2 0 0.02" size="0.01" rgba="0.4 0.8 0.4 1" /> -->
+    <site name="keypt1" pos="-0.2 0 0.02" size="0.01" rgba="0.4 0.8 0.4 1" />
+    <site name="keypt2" pos="-0.04 0 0.02" size="0.01" rgba="0.4 0.8 0.4 1" />
+    <site name="keypt3" pos="0.14 0 0.03" size="0.01" rgba="0.4 0.8 0.4 1" />
 </mujocoinclude>

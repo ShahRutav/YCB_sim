@@ -11,4 +11,7 @@
     <geom class="ycb_col" type="mesh" mesh="030_fork" material="030_fork"/>
     <site name="tool" pos="-0.2 -0.04 0" size="0.01" group="4" rgba="0.4 0.8 0.4 1" />
     <!-- <site name="tool" pos="-0.2 -0.04 0" size="0.01" rgba="0.4 0.8 0.4 1" /> -->
+    <site name="keypt1" pos="-0.2 -0.04 0" size="0.01" rgba="0.4 0.8 0.4 1" />
+    <site name="keypt2" pos="-0.04 -0.04 0" size="0.01" rgba="0.4 0.8 0.4 1" />
+    <site name="keypt3" pos="0.11 -0.04 0.0" size="0.01" rgba="0.4 0.8 0.4 1" />
 </mujocoinclude>
